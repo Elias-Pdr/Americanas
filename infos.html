@@ -16,7 +16,7 @@
             align-items: center;
             height: 50px;
             cursor: pointer;
-
+            margin: 10px 0px;
         }
         header img{
             width: 30px;
@@ -52,7 +52,7 @@
         }
         .card h1{
             color: white;
-            margin: 20px 0px 40px 0px;
+            margin: 20px 0px 30px 0px;
             font-size: 2em;
         }
         .strong{
@@ -71,7 +71,7 @@
         }
         .grad {
             background-color: white;
-            background-image: linear-gradient(to right, black , rgba(0, 0, 0, 0.85));
+            background-image: linear-gradient(to right, rgb(0, 0, 0, 0.95) , rgba(0, 0, 0, 0.75));
         }
         #table{
             margin: 50px 20px;
@@ -90,9 +90,16 @@
             padding: 10px 5px;
             border-radius: 10px;
             border: 1px solid gray;
-            box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 25%);
+            box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 16%);
             cursor: copy;
+            background-color: whitesmoke;
         }
+        .inputCopy input:hover{
+            border: 1px solid gray;
+            box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 16%);
+            background-color: rgba(0, 0, 0, 0.15);
+        }
+
 
     </style>
 </head>
@@ -124,7 +131,7 @@
 
         <div class="inputCopy">
             <input type="hidden" name="infos" id="infos">
-            <input type="button" value="Copy" onclick="copy()">
+            <input type="button" value="Copy" id="Copy" onclick="copy()">
         </div>
 
     </main>
@@ -149,6 +156,9 @@
 
         function copy(){
             //copiar o texto de document.getElementById('infos').value
+            document.getElementById("Copy").value = "Copied!"
+            document.getElementById("Copy").style.backgroundColor = "rgb(198, 228, 188)"
+
         }
 
     </script>
