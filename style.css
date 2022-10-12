@@ -270,13 +270,12 @@ ul, li {
 }
 .containerImg{
     display: flex;
-    justify-content: center;
-    margin: 10px 0px 16px 0px;
+    margin: 10px 20px 16px 20px;
 }
 .kQIqMX {
     display: flex;
     flex-direction: column;
-    margin: 0px 10px;
+    margin: 10px 20px 16px 20px;
     font-family: Helvetica, Arial, sans-serif;
     border-bottom: 1px solid rgb(232, 232, 232);
 }
