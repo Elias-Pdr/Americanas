@@ -23,7 +23,7 @@ body{
     max-width: 1280px;
     width: 100%;
     margin: 0px auto;
-    padding: 16px;
+    padding: 10px;
     animation: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) 0s 1 normal both running hiOHWp;
     display: grid;
     column-gap: 2rem;
