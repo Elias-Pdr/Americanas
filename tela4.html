@@ -344,7 +344,9 @@
 
     <div class="sc-jQHtVU dPmEwX">
 <label class="sc-fctJkW bWqpww">
-<p><span>Nome completo <span class="sc-nnIRd gGvdIO">como está impresso no cartão</span></span></p>
+<p>
+    <span>Nome completo<span class="sc-eMWWsl eBcgsa">como está impresso no cartão</span></span>
+</p>
 <div class="sc-fvNpTx ihHOrw"  id="borda2">
     <input id="nomeCartao" autocomplete="off" data-cy="formField__name" placeholder="" type="text" name="name" autocorrect="off" cursor="text" class="sc-HzFiz cTfqOx" value="">
 </div>
@@ -382,9 +384,9 @@
 </div>
 </div>
 
-<div class="sc-dTbhCw dbZJfY" onclick="parcelas()">
+<div class="sc-dTbhCw dbZJfY">
     <p>Número de parcelas</p>
-    <button id="ParcelasCartao" type="button" disabled="" class="sc-QmDjo dOcgl">
+    <button id="ParcelasCartao"  onclick="parcelas()" type="button" class="sc-QmDjo dOcgl">
         <span id="text_numeroParcelas">Selecione o número de parcelas</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="17.47" height="10.091" viewBox="0 0 17.47 10.091" class="arrowIcon">
             <path fill="#333" id="expand_more" d="M8.414,10.052a1.346,1.346,0,0,1-.638-.358q-.029-.029-.056-.06L.4,2.31A1.352,1.352,0,0,1,2.309.4L8.734,6.823,15.161.4a1.352,1.352,0,0,1,1.912,1.913l-7.3,7.3q-.037.044-.079.086a1.356,1.356,0,0,1-1.28.357Z" transform="translate(0 0)">
@@ -567,6 +569,7 @@
             document.getElementById("circle" + i).style.stroke = 'rgb(204, 204, 204)'
         }
         document.getElementById("circle" + n).style.stroke = 'red'
+        modal.style.display = 'none'
     }
 
     _intupCartao.addEventListener("keypress", function(e){

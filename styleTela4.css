@@ -1443,7 +1443,14 @@ footer {
 .liyjrg:checked + svg path {
     transition: all 0.4s ease 0s;
 }
-
+.eBcgsa {
+    display: block;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 1px 0px;
+}
 .iWdWfJ {
     stroke: rgb(248, 0, 50);
     stroke-width: 2;
