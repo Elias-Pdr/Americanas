@@ -210,6 +210,7 @@ ul, li {
 .fgJjOs {
     display: flex;
     flex-direction: row-reverse;
+    margin: 0px 10px;
 }
 .iCNHlx {
     width: 400px;
@@ -274,10 +275,11 @@ ul, li {
 }
 .containerImg{
     display: flex;
-    margin: 20px 10px 26px 10px;
+    margin: 20px 0px;
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: aquamarine;
 }
 .containerName{
     display: flex;
