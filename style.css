@@ -211,6 +211,9 @@ ul, li {
     display: flex;
     flex-direction: row-reverse;
     margin: 0px 10px;
+    background-color: blueviolet;
+    width: fit-content;
+    padding: 10px;
 }
 .iCNHlx {
     width: 400px;
@@ -274,11 +277,6 @@ ul, li {
     cursor: pointer;
 }
 .containerImg{
-    display: flex;
-    margin: 20px 0px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     background-color: aquamarine;
 }
 .containerName{
