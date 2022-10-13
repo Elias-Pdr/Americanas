@@ -213,6 +213,7 @@ ul, li {
     background-color: blueviolet;
     width: fit-content;
     padding: 10px;
+    margin: auto;
 }
 .iCNHlx {
     width: 400px;
@@ -277,6 +278,7 @@ ul, li {
 }
 .containerImg{
     background-color: aquamarine;
+    width: 100vw;
 }
 .containerName{
     display: flex;
