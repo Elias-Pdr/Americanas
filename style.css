@@ -211,13 +211,12 @@ ul, li {
     display: flex;
     flex-direction: row-reverse;
     background-color: rgb(43, 226, 104);
-    width: fit-content;
+    width: 90%;
     padding: 10px;
     margin: auto;
 }
 .iCNHlx {
-    width: 400px;
-    height: 400px;
+    width: 100%;
     cursor: zoom-in;
 }
 .ebFfaU {
@@ -227,12 +226,10 @@ ul, li {
     background-size: 40px;
     background-position: center center;
     max-width: 100%;
-    padding-top: 100%;
     min-height: 1px;
     width: 100%;
 }
 .jAziSf {
-    position: absolute;
     inset: 0px;
     width: 100%;
 }
