@@ -395,10 +395,12 @@ ul, li {
     bottom: 0px;
     width: 100%;
     background: rgb(250, 250, 250);
-    padding: 0px 16px 16px;
     box-shadow: rgb(0 0 0 / 10%) 0px 1px 8px 1px;
     border-radius: 4px 4px 0px 0px;
     z-index: 10;
+}
+.containerFooter{
+    padding: 0px 16px 16px 16px;
 }
 .jSknKn {
     display: flex;
@@ -537,6 +539,7 @@ ul, li {
     padding: 20px 0px;
     background: rgb(234, 234, 234);
     text-align: center;
+    padding-bottom: 200px;
 }
 .kCquYa {
     padding: 20px 20px 0px;

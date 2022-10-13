@@ -5,8 +5,11 @@
 }
 header {
     background: rgb(248, 0, 50);
-    padding: 10px;
     width: 100%;
+}
+.containerHeader{
+    padding: 10px;
+
 }
 .top{
     display: flex;
@@ -276,12 +279,18 @@ ul, li {
     justify-content: center;
     width: 96%;
 }
+.containerName{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .kQIqMX {
     display: flex;
     flex-direction: column;
     margin: 10px 20px 16px 20px;
     font-family: Helvetica, Arial, sans-serif;
     border-bottom: 1px solid rgb(232, 232, 232);
+    width: 96%;
 }
 .jyetLr {
     font-size: 20px;
@@ -386,8 +395,9 @@ ul, li {
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 96%;
     padding: 0px 16px;
+    margin: auto;
 }
 .ewIMXf {
     width: 100%;
