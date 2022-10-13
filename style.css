@@ -277,6 +277,7 @@ ul, li {
     margin: 20px 10px 26px 10px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .containerName{
     display: flex;
